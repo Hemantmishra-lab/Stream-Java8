@@ -1,0 +1,27 @@
+Key Concepts & Operations Covered
+
+Distinct Elements (distinct()): Removing duplicate items from collections.
+
+Sorting (sorted()): Sorting elements in natural order or using custom comparators (ascending and descending).
+
+String Aggregation (Collectors.joining()): Concatenating stream strings with delimiters, prefixes, and suffixes.
+
+Min / Max Selection (min(), max()): Finding boundary elements using custom comparators.
+
+Element Existence Checks:
+
+anyMatch(): Checks if at least one element matches a predicate.
+
+allMatch(): Checks if all elements satisfy a predicate.
+
+noneMatch(): Checks if no elements satisfy a predicate.
+
+Skipping & Limiting:
+
+limit(n): Truncating the stream to a maximum size.
+
+skip(n): Discarding the first n elements.
+
+Target Audience & Goal
+
+Aimed at solidifying foundational stream skills with real-world scenarios like deduplication, custom sorting, and matching validation.

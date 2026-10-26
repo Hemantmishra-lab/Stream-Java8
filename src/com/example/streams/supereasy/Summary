@@ -1,0 +1,17 @@
+Key Concepts & Stream Methods
+
+Stream Creation: Converting arrays or lists into streams using Collection.stream() or Stream.of().
+
+Filtering (filter): Selecting elements that satisfy a specific boolean condition (Predicate).
+
+Data Transformation (map): Transforming each element into another value or type using a function.
+
+Terminal Operations:
+
+collect(Collectors.toList()): Accumulating elements into a collection.
+
+reduce() / sum() / count() / average(): Reducing stream values down to a single result.
+
+findFirst() / findAny(): Retrieving matching elements wrapped in an Optional.
+
+forEach(): Iterating through stream elements.

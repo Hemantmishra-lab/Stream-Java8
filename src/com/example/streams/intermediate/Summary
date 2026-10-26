@@ -1,0 +1,17 @@
+• Sorting Complex Objects (Comparator.comparing(), .reversed())
+Sorts custom Data Transfer Objects (DTOs) by specific attributes using method references and reverse ordering.
+
+• Primitive Stream Conversions (mapToInt(), intStream.average())
+Converts object streams into primitive streams to compute numeric metrics like averages without boxing overhead.
+
+• Partitioning vs. Grouping (Collectors.partitioningBy(), Collectors.groupingBy())
+Separates data using binary splits (true/false) versus multi-bucket classifications based on a classifier function.
+
+• Downstream Collectors (Collectors.counting(), Collectors.averagingDouble(), Collectors.maxBy())
+Combines an initial grouping operation with secondary collectors to aggregate data inside each bucket.
+
+• Map Operations (Map.Entry streams)
+Processes, filters, and maps key-value collections generated directly from grouping and partitioning operations.
+
+• Preserving Order (LinkedHashMap supply)
+Passes a LinkedHashMap map factory into collectors to maintain original insertion or iteration order during classification.

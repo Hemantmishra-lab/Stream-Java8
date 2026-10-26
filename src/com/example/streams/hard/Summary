@@ -1,0 +1,11 @@
+• Text & Character Analysis (chars(), replaceAll(), LinkedHashMap)
+Converts strings to character streams, applies regex filtering, and uses a LinkedHashMap to maintain character frequency ordering.
+
+• Sliding Window Implementation (IntStream.range(), List.subList())
+Combines range-based integer streams with sub-lists to process continuous \(N\)-element chunks dynamically.
+
+• Advanced Aggregations (Max metrics, \(N\)-grams)
+Computes complex metrics like highest transaction spends, maximum word frequencies, and dynamic sequence extractions (bigrams).
+
+• Custom Classification Rules (Collectors.groupingBy())
+Employs static helper methods within collectors to categorize data by non-field dynamic criteria like salary brackets.
